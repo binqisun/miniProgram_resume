@@ -1,0 +1,30 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/poi/index"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/mission.png",
+        "selectedIconPath": "static/mission.png",
+        "text": "我的简介"
+      },
+      {
+        "pagePath": "pages/poi/index",
+        "iconPath": "static/poi.png",
+        "selectedIconPath": "static/poi.png",
+        "text": "第二个Tab"
+      }
+    ]
+  },
+  "usingComponents": {}
+}
